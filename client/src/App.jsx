@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 import './App.css';
 
 // Page components
@@ -32,12 +33,7 @@ const Projects = () => (
   </div>
 );
 
-const Contact = () => (
-  <div className="container mx-auto px-6 py-20">
-    <h1 className="text-4xl font-bold mb-8">Contact Me</h1>
-    <p className="text-gray-400">Get in touch for collaborations or questions...</p>
-  </div>
-);
+
 
 function App() {
   return (
