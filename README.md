@@ -1,16 +1,87 @@
-# React + Vite
+# Personal Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio showcasing my skills, projects, and experience as a **Full-Stack Software Engineer**.  
+The goal of this portfolio is simple: clearly demonstrate how I build real-world applications and how I think as a developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Live Demo
+ *(Add your live portfolio link here)*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  About Me
 
-## Expanding the ESLint configuration
+I’m a Full-Stack Software Engineer with hands-on experience building production-ready web applications.  
+I focus on creating **scalable frontends**, **robust backend APIs**, and **maintainable systems** using modern technologies.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I enjoy solving real problems, debugging complex issues, and turning ideas into working products—especially platforms that improve access to services and opportunities.
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Python (Flask / Django)
+- RESTful APIs
+
+### Database
+- PostgreSQL
+- MongoDB
+
+### Tools & Other
+- Git & GitHub
+- Linux
+- Figma (UI planning)
+- Axios / Fetch API
+
+---
+
+##  Features
+
+- Responsive, modern UI
+- Clean component-based architecture
+- Optimized layouts with Tailwind CSS
+- Reusable components
+- Mobile-first design
+- Fast load times and smooth interactions
+
+---
+
+##  Projects Highlighted
+
+Some of the projects featured in this portfolio include:
+
+- **StudentHub** – A platform connecting students with jobs and learning opportunities  
+- **KenyaConnect** – A local freelance marketplace tailored for Kenyan users  
+- **Salon Booking System** – Appointment booking with authentication and offers  
+- **Car Rental Platform** – Vehicle listing and M-Pesa-based booking flow  
+
+Each project includes:
+- Problem statement
+- Tech stack
+- Challenges faced
+- Solutions implemented
+
+---
+
+##  Debugging & Problem Solving
+
+I approach debugging methodically:
+1. Reproduce the issue
+2. Inspect logs and error messages
+3. Isolate the failing component or function
+4. Apply fixes incrementally
+5. Refactor if needed for long-term stability
+
+I value readable code, clear logic, and maintainability over quick hacks.
+
+
+
