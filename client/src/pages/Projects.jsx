@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
+import BackToTop from '../components/BackToTop';
+
 
 export default function Projects() {
   const [filter, setFilter] = useState('all');
@@ -107,10 +109,9 @@ export default function Projects() {
       <div className="pt-24 pb-16">
         
         {/* Background Effect */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-40 right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-40 left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
-        </div>
+         <div className="fixed inset-0 bg-gradient-to-br from-[#0a0e1a] via-[#0f1419] to-[#1a1f2e]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-900/10 via-transparent to-transparent"></div>
+      </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -205,6 +206,7 @@ export default function Projects() {
               </a>
             </div>
           </div>
+          <BackToTop />
         </div>
       </div>
     </div>

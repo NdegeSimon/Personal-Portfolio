@@ -15,8 +15,7 @@ function App() {
         <main className="pt-16">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/ai" element={<AI />} />
+            {/* <Route path="/ai" element={<AI />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />

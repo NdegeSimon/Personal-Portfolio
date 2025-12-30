@@ -1,19 +1,20 @@
 import { FaCode, FaLaptopCode, FaRocket, FaUsers, FaAward, FaGraduationCap } from 'react-icons/fa';
-
+import profile from '../assets/profile.jpg';
+import BackToTop from '../components/BackToTop';
 export default function About() {
   const skills = {
     frontend: [
       { name: 'React', level: 95 },
-      { name: 'Next.js', level: 90 },
+      { name: 'HTML', level: 90 },
       { name: 'TypeScript', level: 88 },
       { name: 'Tailwind CSS', level: 95 },
       { name: 'Redux', level: 85 }
     ],
     backend: [
-      { name: 'Node.js', level: 92 },
+      { name: 'Flask', level: 92 },
       { name: 'Python', level: 88 },
       { name: 'PostgreSQL', level: 85 },
-      { name: 'MongoDB', level: 82 },
+      { name: 'SQL', level: 82 },
       { name: 'Express', level: 90 }
     ],
     tools: [
@@ -69,33 +70,33 @@ export default function About() {
       description: 'Focused on software engineering, algorithms, and database systems.'
     },
     {
-      degree: 'Full-Stack Web Development Certification',
-      institution: 'FreeCodeCamp',
+      degree: 'Full-Stack Software Engineering',
+      institution: 'Moringa School',
       period: '2019',
-      description: 'Comprehensive certification covering modern web technologies.'
+      description: 'Intensive 24-week program covering React, Node.js, Python, and cloud deployment.'
     }
   ];
 
   const values = [
     {
-      icon: <FaCode />,
-      title: 'Clean Code',
-      description: 'I believe in writing maintainable, well-documented code that others can understand and build upon.'
+      icon: <FaCode className="group-hover:rotate-6 transition-transform duration-300" />,
+      title: 'Clean & Readable',
+      description: 'I write code that\'s easy to understand and maintain, with clear documentation and consistent patterns that make collaboration a breeze.'
     },
     {
-      icon: <FaRocket />,
-      title: 'Performance',
-      description: 'Optimizing for speed and efficiency is crucial. Every millisecond matters in user experience.'
+      icon: <FaRocket className="group-hover:animate-bounce transition-transform duration-300" />,
+      title: 'Fast & Efficient',
+      description: 'Performance isn\'t just about speed—it\'s about creating smooth, responsive experiences that keep users engaged and happy.'
     },
     {
-      icon: <FaUsers />,
-      title: 'Collaboration',
-      description: 'Great products are built by great teams. I thrive in collaborative environments.'
+      icon: <FaUsers className="group-hover:scale-110 transition-transform duration-300" />,
+      title: 'Team Player',
+      description: 'Some of my best work comes from collaborating with others. I love brainstorming, pair programming, and learning from my peers.'
     },
     {
-      icon: <FaLaptopCode />,
-      title: 'Continuous Learning',
-      description: 'Technology evolves rapidly. I stay updated with the latest trends and best practices.'
+      icon: <FaLaptopCode className="group-hover:animate-pulse transition-transform duration-300" />,
+      title: 'Always Learning',
+      description: 'The tech world never stands still, and neither do I. I\'m always exploring new technologies and techniques to improve my craft.'
     }
   ];
 
@@ -104,10 +105,9 @@ export default function About() {
       <div className="pt-24 pb-16">
         
         {/* Background Effect */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-40 right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-40 left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
-        </div>
+         <div className="fixed inset-0 bg-gradient-to-br from-[#0a0e1a] via-[#0f1419] to-[#1a1f2e]">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-900/10 via-transparent to-transparent"></div>
+      </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
           
@@ -118,17 +118,13 @@ export default function About() {
               {/* Left - Text */}
               <div className="space-y-6">
                 <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-                  About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Me</span>
+                  Hey there! I'm <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Simon</span>
                 </h1>
-                <p className="text-gray-400 text-lg leading-relaxed font-Bebas Neue">
-                  I'm Simon Ooko, a passionate Full-Stack Software Engineer based in Nairobi, Kenya. 
-                  With over 5 years of experience building scalable web applications, I specialize in 
-                  creating seamless digital experiences that solve real-world problems.
+                <p className="text-gray-300 text-lg leading-relaxed">
+                  A <span className="text-blue-400 font-medium">Full-Stack Developer</span> with a passion for creating digital experiences that make a difference. Based in the vibrant city of Nairobi, Kenya, I turn complex problems into simple, beautiful, and intuitive solutions.
                 </p>
                 <p className="text-gray-400 text-lg leading-relaxed">
-                  My journey in software development started with a curiosity about how things work 
-                  and evolved into a career where I get to build amazing products every day. I believe 
-                  in writing clean, maintainable code and continuously learning new technologies.
+                  My coding journey began when I built my first website (it was terrible, but we all start somewhere!). Since then, I've had the privilege of working with amazing teams and building products that people actually use. When I'm not coding, you'll find me Singing, reading tech blogs, or experimenting with new recipes in the kitchen.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   
@@ -139,7 +135,7 @@ export default function About() {
                   </a>
                   
                   <a
-                    href="/resume.pdf"
+                    href="/Resume.pdf"
                     download
                     className="px-8 py-3 border-2 border-gray-600 hover:border-blue-500 rounded-lg font-semibold transition-all duration-300 hover:bg-blue-500/10"
                   >
@@ -151,13 +147,18 @@ export default function About() {
               {/* Right - Image */}
               <div className="flex justify-center lg:justify-end">
                 <div className="relative group">
-                  <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
-                  <div className="relative w-80 h-80 rounded-2xl overflow-hidden border-4 border-gray-700/50 group-hover:border-blue-500/50 transition-all duration-500 shadow-2xl">
+                  <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-2xl opacity-20 group-hover:opacity-30 transition-all duration-500 animate-pulse"></div>
+                  <div className="relative w-80 h-80 rounded-2xl overflow-hidden border-4 border-gray-700/50 group-hover:border-blue-500/50 transition-all duration-500 shadow-2xl group-hover:shadow-blue-500/20">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent z-10"></div>
                     <img 
-                      src="/profile.jpg" 
+                      src={profile} 
                       alt="Simon Ooko"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                     />
+                    <div className="absolute bottom-0 left-0 p-6 z-20">
+                      <p className="text-sm text-blue-300 font-mono">Currently coding from</p>
+                      <p className="text-white text-lg font-medium">Nairobi, Kenya</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -355,6 +356,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <BackToTop />
     </div>
   );
 }

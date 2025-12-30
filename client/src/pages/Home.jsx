@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import profileImage from '../assets/profile.jpg';
+import BackToTop from '../components/BackToTop';
 
 export default function Home() {
   return (
@@ -111,6 +112,7 @@ export default function Home() {
       </div>
 
      
+      <BackToTop />
     </div>
   );
 }

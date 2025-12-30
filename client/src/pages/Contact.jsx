@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { FaArrowUp } from 'react-icons/fa';
+import { useState } from 'react';
+import BackToTop from '../components/BackToTop';
 
 const Contact = () => {
   // ... existing state and functions ...
@@ -11,28 +11,6 @@ const Contact = () => {
   });
 
   const [status, setStatus] = useState(''); // 'success', 'error', or ''
-  const [showScroll, setShowScroll] = useState(false);
-
-  // Show scroll-to-top button when scrolling down
-  useEffect(() => {
-    const checkScroll = () => {
-      if (!showScroll && window.pageYOffset > 400) {
-        setShowScroll(true);
-      } else if (showScroll && window.pageYOffset <= 400) {
-        setShowScroll(false);
-      }
-    };
-
-    window.addEventListener('scroll', checkScroll);
-    return () => window.removeEventListener('scroll', checkScroll);
-  }, [showScroll]);
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
 
   const handleChange = (e) => {
     setFormData({
@@ -283,17 +261,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    
-    {/* Scroll to Top Button */}
-    {showScroll && (
-      <button
-        onClick={scrollToTop}
-        className="fixed bottom-8 right-8 w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 z-50"
-        aria-label="Scroll to top"
-      >
-        <FaArrowUp className="w-5 h-5" />
-      </button>
-    )}
+    <BackToTop />
   </div>
   );
 }
