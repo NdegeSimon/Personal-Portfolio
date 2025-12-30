@@ -42,7 +42,7 @@ export default function Home() {
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center lg:justify-start">
                 <Link 
-                  to="/work"
+                  to="/projects"
                   className="group px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transform hover:scale-105 flex items-center justify-center gap-2"
                 >
                   View My Work

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import './App.css';
+import Projects  from './pages/Projects';
 
 // Page components
 const Work = () => (
@@ -26,12 +26,7 @@ const About = () => (
   </div>
 );
 
-const Projects = () => (
-  <div className="container mx-auto px-6 py-20">
-    <h1 className="text-4xl font-bold mb-8">My Projects</h1>
-    <p className="text-gray-400">Check out my latest work and case studies...</p>
-  </div>
-);
+
 
 
 
