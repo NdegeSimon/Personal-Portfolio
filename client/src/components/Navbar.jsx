@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 right-0 z-50 p-8">
       <div className="flex gap-8 text-sm font-medium uppercase tracking-widest">
-        <Link to="/work" className="text-white hover:text-gray-300 transition-colors">
+        <Link to="/projects" className="text-white hover:text-gray-300 transition-colors">
           Projects
         </Link>
         <Link to="/ai" className="text-white hover:text-gray-300 transition-colors">
@@ -12,9 +12,6 @@ export default function Navbar() {
         </Link>
         <Link to="/about" className="text-white hover:text-gray-300 transition-colors">
           About
-        </Link>
-        <Link to="/projects" className="text-white hover:text-gray-300 transition-colors">
-          Projects
         </Link>
         <Link to="/contact" className="text-white hover:text-gray-300 transition-colors">
           Contact

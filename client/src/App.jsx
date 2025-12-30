@@ -3,32 +3,9 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects  from './pages/Projects';
+import About from './pages/About';
 
 // Page components
-const Work = () => (
-  <div className="container mx-auto px-6 py-20">
-    <h1 className="text-4xl font-bold mb-8">My Work</h1>
-    <p className="text-gray-400">Here are some of my recent projects...</p>
-  </div>
-);
-
-const AI = () => (
-  <div className="container mx-auto px-6 py-20">
-    <h1 className="text-4xl font-bold mb-8">AI+</h1>
-    <p className="text-gray-400">Explore my AI projects and research...</p>
-  </div>
-);
-
-const About = () => (
-  <div className="container mx-auto px-6 py-20">
-    <h1 className="text-4xl font-bold mb-8">About Me</h1>
-    <p className="text-gray-400">Learn more about my background and skills...</p>
-  </div>
-);
-
-
-
-
 
 function App() {
   return (

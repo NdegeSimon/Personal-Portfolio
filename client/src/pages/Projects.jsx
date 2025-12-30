@@ -103,7 +103,7 @@ export default function Projects() {
     : projects.filter(project => project.category === filter);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0a0e1a] via-[#0f1419] to-[#1a1f2e] text-white overflow-x-hidden">
+    <div className="min-h-screen w-full bg-gradient-to-br from-[#0a0e1a] via-[#0f1419] to-[#1a1f2e] text-white overflow-hidden">
       <div className="pt-24 pb-16">
         
         {/* Background Effect */}
@@ -112,7 +112,7 @@ export default function Projects() {
           <div className="absolute bottom-40 left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Header */}
           <div className="mb-12 space-y-6">
@@ -196,7 +196,7 @@ export default function Projects() {
                 Get in Touch
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/NdegeSimon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 border-2 border-gray-600 hover:border-blue-500 rounded-lg font-semibold transition-all duration-300 hover:bg-blue-500/10"
