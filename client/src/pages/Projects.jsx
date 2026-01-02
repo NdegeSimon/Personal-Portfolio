@@ -8,17 +8,17 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart, payment integration with Stripe, and admin dashboard for managing orders and inventory.",
-      image: "/projects/ecommerce.jpg",
-      tags: ["React", "Node.js", "PostgreSQL", "Stripe", "Redux"],
-      githubUrl: "https://github.com/yourusername/ecommerce",
-      liveUrl: "https://ecommerce-demo.com",
+      title: "Carbon IQ",
+      description: "Carbon IQ is a full-stack platform that helps businesses track, analyze, and reduce carbon emissions through data-driven insights and real-time dashboards.",
+      image: "/assets/CarbonIQ.png",
+      tags: ["React", "Node.js", "SQL", "Flask", "Redux"],
+      githubUrl: "https://github.com/Mike-Muteithia/Group9-CarbonIQ",
+      liveUrl: "https://carbon-iot-demo.com",
       featured: true,
       category: "fullstack"
     },
     {
-      title: "AI Chat Application",
+      title: "Carevob iAcation",
       description: "Real-time chat application powered by OpenAI API with message history, typing indicators, custom AI personalities, and conversation export features. Built with modern web technologies for seamless user experience.",
       image: "/projects/chat-app.jpg",
       tags: ["React", "OpenAI", "Socket.io", "MongoDB", "Express"],
@@ -55,12 +55,13 @@ export default function Projects() {
       category: "fullstack"
     },
     {
-      title: "Social Media Analytics",
-      description: "Analytics dashboard for tracking social media performance across multiple platforms with data visualization, sentiment analysis, engagement metrics, and automated reporting features.",
+      title: "Nexus",
+      description: "Nexus is a collaborative platform where students share ideas, get mentor feedback, and validate whether their projects are worth pursuing.",
       image: "/projects/analytics.jpg",
-      tags: ["Python", "React", "PostgreSQL", "D3.js", "FastAPI"],
-      githubUrl: "https://github.com/yourusername/social-analytics",
-      liveUrl: "https://analytics-demo.com",
+      tags: ["Python", "React", "SQL", "Flask", "FastAPI"],
+      githubUrl: "https://github.com/WillyKyeni3/Nexus",
+      liveUrl: "https://nexus-seven-orcin.vercel.app/",
+      featured: true,
       category: "fullstack"
     },
     {
