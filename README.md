@@ -6,7 +6,7 @@ The goal of this portfolio is simple: clearly demonstrate how I build real-world
 ---
 
 ##  Live Demo
- *(Add your live portfolio link here)*
+ 
 
 ---
 
@@ -19,7 +19,7 @@ I enjoy solving real problems, debugging complex issues, and turning ideas into 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js

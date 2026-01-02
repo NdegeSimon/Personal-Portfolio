@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import BackToTop from '../components/BackToTop';
+ 
 
 
 export default function Projects() {
@@ -10,7 +11,7 @@ export default function Projects() {
     {
       title: "Carbon IQ",
       description: "Carbon IQ is a full-stack platform that helps businesses track, analyze, and reduce carbon emissions through data-driven insights and real-time dashboards.",
-      image: "/assets/CarbonIQ.png",
+      image: "/src/assets/CarbonIQ.png",
       tags: ["React", "Node.js", "SQL", "Flask", "Redux"],
       githubUrl: "https://github.com/Mike-Muteithia/Group9-CarbonIQ",
       liveUrl: "https://carbon-iot-demo.com",
@@ -57,7 +58,7 @@ export default function Projects() {
     {
       title: "Nexus",
       description: "Nexus is a collaborative platform where students share ideas, get mentor feedback, and validate whether their projects are worth pursuing.",
-      image: "/projects/analytics.jpg",
+      image: "/src/assets/Nexus.png",
       tags: ["Python", "React", "SQL", "Flask", "FastAPI"],
       githubUrl: "https://github.com/WillyKyeni3/Nexus",
       liveUrl: "https://nexus-seven-orcin.vercel.app/",
@@ -74,21 +75,21 @@ export default function Projects() {
       category: "mobile"
     },
     {
-      title: "Blog Platform",
-      description: "Modern blogging platform with markdown support, syntax highlighting for code blocks, SEO optimization, comment system, and newsletter integration. Built for developers.",
-      image: "/projects/blog.jpg",
-      tags: ["Next.js", "MDX", "Tailwind", "Vercel"],
+      title: "ChatSnap",
+      description: "ChatSnap is a lightweight social app that lets users create profiles, browse cards, and simulate real-time chat interactions in a clean, mobile-first interface",
+      image: "/src/assets/CatSnap.png",
+      tags: ["React", "Flask", "Tailwind", "Vercel","SQL"],
       githubUrl: "https://github.com/yourusername/blog-platform",
       liveUrl: "https://blog-demo.com",
-      category: "frontend"
+      category: "FullStack"
     },
     {
-      title: "Restaurant Ordering System",
-      description: "Complete restaurant management system with online ordering, table reservations, kitchen display system, inventory management, and sales analytics.",
-      image: "/projects/restaurant.jpg",
-      tags: ["React", "Node.js", "MongoDB", "Socket.io", "Stripe"],
-      githubUrl: "https://github.com/yourusername/restaurant-system",
-      liveUrl: "https://restaurant-demo.com",
+      title: "My Desire Salon",
+      description: "Desire Salon is a booking platform that lets clients schedule salon services easily while helping salons manage appointments and customers.",
+      image: "/src/assets/MyDesire.png",
+      tags: ["React", "Tailwind", "Flask", "SQL"],
+      githubUrl: "https://github.com/NdegeSimon/Mydesire-Salon",
+      liveUrl: "https://mydesiresalon.com",
       category: "fullstack"
     }
   ];
